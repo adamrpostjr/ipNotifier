@@ -1,0 +1,27 @@
+{
+  "name": "ipnotifier",
+  "version": "1.0.0",
+  "description": "A simple app that will check your external IP every so often and will let you know if it changes.",
+  "main": "ipNotif.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamrpostjr/ipNotifier.git"
+  },
+  "author": "Adam Post",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamrpostjr/ipNotifier/issues"
+  },
+  "homepage": "https://github.com/adamrpostjr/ipNotifier#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "luxon": "^1.25.0",
+    "nedb": "^1.8.0",
+    "slackbots": "^1.2.0",
+    "telegram-bot-api": "^2.0.1"
+  }
+}
